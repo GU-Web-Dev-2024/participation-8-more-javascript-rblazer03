@@ -12,4 +12,4 @@ function loadTasks(){
 }
 
 // exports
-export { saveTasks, loadTask };
+export { saveTasks, loadTasks };

@@ -2,7 +2,7 @@
 
 // import modules
 import { addTask, clearInput } from "./todo.js";
-import { saveTasks,loadTask } from "./storage.js";
+import { saveTasks,loadTasks } from "./storage.js";
 
 // import * as storage from "./storage.js"
 
@@ -15,7 +15,7 @@ const addTaskButton = document.getElementById("add-task");
 const tasks = loadTasks();
 
 tasks.forEach(task => {
-    addTask(task. taskList)
+    addTask(task, taskList)
 });
 // add event listener for new task
 addTaskButton.addEventListener("click", ()=>{
